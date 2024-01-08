@@ -1,0 +1,51 @@
+{
+  "pages": {
+    "/_not-found": [
+      "static/chunks/webpack-3fd0f45bcf74bc4a.js",
+      "static/chunks/fd9d1056-7b52db27cfdaff1f.js",
+      "static/chunks/472-b67f79dbdd2c1fe1.js",
+      "static/chunks/main-app-0635d56013ea4430.js",
+      "static/chunks/app/_not-found-21300f601eee6904.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-3fd0f45bcf74bc4a.js",
+      "static/chunks/fd9d1056-7b52db27cfdaff1f.js",
+      "static/chunks/472-b67f79dbdd2c1fe1.js",
+      "static/chunks/main-app-0635d56013ea4430.js",
+      "static/css/df0dd3a1ac2cb349.css",
+      "static/chunks/app/layout-e74c1dee33d3dacc.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-3fd0f45bcf74bc4a.js",
+      "static/chunks/fd9d1056-7b52db27cfdaff1f.js",
+      "static/chunks/472-b67f79dbdd2c1fe1.js",
+      "static/chunks/main-app-0635d56013ea4430.js",
+      "static/chunks/326-aefa5a896d3dcfbe.js",
+      "static/chunks/app/page-60d38ef9d3642ece.js"
+    ],
+    "/[country]/page": [
+      "static/chunks/webpack-3fd0f45bcf74bc4a.js",
+      "static/chunks/fd9d1056-7b52db27cfdaff1f.js",
+      "static/chunks/472-b67f79dbdd2c1fe1.js",
+      "static/chunks/main-app-0635d56013ea4430.js",
+      "static/chunks/app/[country]/page-6d6d3c9192fa1562.js"
+    ],
+    "/[country]/layout": [
+      "static/chunks/webpack-3fd0f45bcf74bc4a.js",
+      "static/chunks/fd9d1056-7b52db27cfdaff1f.js",
+      "static/chunks/472-b67f79dbdd2c1fe1.js",
+      "static/chunks/main-app-0635d56013ea4430.js",
+      "static/chunks/326-aefa5a896d3dcfbe.js",
+      "static/css/e7d3bab42d9af29d.css",
+      "static/chunks/app/[country]/layout-b7aeb1f2038510db.js"
+    ],
+    "/[country]/transportation/car/page": [
+      "static/chunks/webpack-3fd0f45bcf74bc4a.js",
+      "static/chunks/fd9d1056-7b52db27cfdaff1f.js",
+      "static/chunks/472-b67f79dbdd2c1fe1.js",
+      "static/chunks/main-app-0635d56013ea4430.js",
+      "static/chunks/413-dd2d1e77cac135ea.js",
+      "static/chunks/app/[country]/transportation/car/page-cb527619ba165de5.js"
+    ]
+  }
+}
