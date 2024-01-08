@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const RightSidebarNavigation = () => {
   return (
-    <div className="sticky hidden lg:top-0 lg:flex lg:h-full lg:w-64 lg:flex-none lg:py-16">
+    <div className="sticky hidden lg:top-0 lg:h-full lg:w-64 lg:flex-none lg:py-16 xl:flex">
       <nav>
         <div>
           <nav>
