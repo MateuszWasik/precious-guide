@@ -16,7 +16,22 @@
   }
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   color: rgb(var(--foreground-rgb));
-  background: #27374d;
+  background: rgb(15, 23, 42);
+  color: rgb(148 163 184 / 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(var(--foreground-rgb));
 }
