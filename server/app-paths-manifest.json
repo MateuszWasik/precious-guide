@@ -2,6 +2,6 @@
   "/_not-found": "app/_not-found.js",
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/[country]/page": "app/[country]/page.js",
-  "/[country]/transportation/car/page": "app/[country]/transportation/car/page.js"
+  "/[country]/transportation/car/page": "app/[country]/transportation/car/page.js",
+  "/[country]/page": "app/[country]/page.js"
 }
