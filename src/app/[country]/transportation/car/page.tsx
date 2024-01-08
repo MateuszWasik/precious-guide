@@ -17,9 +17,9 @@ export default function CarPage() {
       <div className="space-y-6">
         <Image
           alt="poland landscape"
-          src={PolandLandscape.src}
-          width={0}
-          height={0}
+          src={`${process.env.CDN_URL}/car_page_landscape.jpg`}
+          width={100}
+          height={100}
           sizes="100"
           className="h-full w-full"
         />
@@ -50,9 +50,9 @@ export default function CarPage() {
         </p>
         <Image
           alt="speed limit table"
-          src={SpeedLimitTable.src}
-          width={0}
-          height={0}
+          src={`${process.env.CDN_URL}/speed_table.png`}
+          width={100}
+          height={100}
           sizes="100"
           className="mx-auto h-full w-96"
         />
@@ -85,9 +85,9 @@ export default function CarPage() {
         </p>
         <Image
           alt="photoradar sign"
-          src={SpeedControlSign.src}
-          width={0}
-          height={0}
+          src={`${process.env.CDN_URL}/speed_control.jpg`}
+          width={100}
+          height={100}
           sizes="100"
           className="mx-auto h-full w-96"
         />
@@ -100,7 +100,7 @@ export default function CarPage() {
         </p>
         <Image
           alt="stationary photoradar"
-          src={Photoradar.src}
+          src={`${process.env.CDN_URL}/photoradar.jpeg`}
           width={0}
           height={0}
           sizes="100"
@@ -198,7 +198,7 @@ export default function CarPage() {
         </p>
         <Image
           alt="videotooling_signs"
-          src={VideotoolingSign.src}
+          src={`${process.env.CDN_URL}/highway_videotooling.jpg`}
           width={0}
           height={0}
           sizes="100"
