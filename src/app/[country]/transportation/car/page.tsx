@@ -1,9 +1,10 @@
-import PolandLandscape from "@images/car_page_landscape.jpg";
-import SpeedLimitTable from "@images/tablica_predkosci.png";
-import Photoradar from "@images/fotoradar.jpeg";
-import SpeedControlSign from "@images/kontrola_predkosci.jpg";
-import VideotoolingSign from "@images/oznakowanie_autostrad.jpg";
-
+import PolandLandscape from "@images/transportation/car/car_page.png";
+import SpeedLimitTable from "@images/transportation/car/speed_table.png";
+import Photoradar from "@images/transportation/car/photoradar.png";
+import SpeedControlSign from "@images/transportation/car/speed_control_sign.png";
+import VideotoolingSign from "@images/transportation/car/highway_org.png";
+import GasStation from "@images/transportation/car/gas_station.png";
+import Highway from "@images/transportation/car/highway.png";
 import Image from "next/image";
 import { HintElement } from "@/components/hint-element";
 
@@ -17,11 +18,12 @@ export default function CarPage() {
       <div className="space-y-6">
         <Image
           alt="poland landscape"
-          src={`${process.env.CDN_URL}/car_page_landscape.jpg`}
+          src={PolandLandscape}
           width={100}
           height={100}
           sizes="100"
           className="h-full w-full"
+          placeholder="blur"
         />
         <p>
           Podróżowanie samochodem w Polsce to nadal najczęstszy wybór
@@ -50,7 +52,7 @@ export default function CarPage() {
         </p>
         <Image
           alt="speed limit table"
-          src={`${process.env.CDN_URL}/speed_table.png`}
+          src={SpeedLimitTable}
           width={100}
           height={100}
           sizes="100"
@@ -85,7 +87,7 @@ export default function CarPage() {
         </p>
         <Image
           alt="photoradar sign"
-          src={`${process.env.CDN_URL}/speed_control.jpg`}
+          src={SpeedControlSign}
           width={100}
           height={100}
           sizes="100"
@@ -100,13 +102,21 @@ export default function CarPage() {
         </p>
         <Image
           alt="stationary photoradar"
-          src={`${process.env.CDN_URL}/photoradar.jpeg`}
+          src={Photoradar}
           width={0}
           height={0}
           sizes="100"
           className="mx-auto h-full w-96"
         />
         <h3 id="highway">Autostrady</h3>
+        <Image
+          alt="highway"
+          src={Highway}
+          width={100}
+          height={100}
+          sizes="100"
+          className="mx-auto h-full w-full"
+        />
         <p>
           W ciągu ostatnich kilku lat Polska znacząco zainwestowała w rozwijanie
           infrastruktury drogowej. Autostrady i drogi ekspresowe stanowią
@@ -198,7 +208,7 @@ export default function CarPage() {
         </p>
         <Image
           alt="videotooling_signs"
-          src={`${process.env.CDN_URL}/highway_videotooling.jpg`}
+          src={VideotoolingSign}
           width={0}
           height={0}
           sizes="100"
@@ -206,6 +216,14 @@ export default function CarPage() {
         />
         <hr className="mx-4"></hr>
         <h2>Stacje Paliw</h2>
+        <Image
+          alt="gas station"
+          src={GasStation}
+          width={100}
+          height={100}
+          sizes="100"
+          className="mx-auto h-full w-full"
+        />
         <p>
           Podróżując po Polsce możemy minąć wiele różnych stacji paliw, od
           wielkich światowych koncernów po małe lokalne stacje. Mimo, że jakość
