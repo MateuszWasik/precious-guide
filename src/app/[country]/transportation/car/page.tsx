@@ -7,6 +7,7 @@ import GasStation from "@images/transportation/car/gas_station.png";
 import Highway from "@images/transportation/car/highway.png";
 import Image from "next/image";
 import { HintElement } from "@/components/hint-element";
+import { ImageComponent } from "@/components/image-component";
 
 export default function CarPage() {
   return (
@@ -16,15 +17,7 @@ export default function CarPage() {
         <h1 className="text-2xl font-bold">Podrózowanie samochodem</h1>
       </header>
       <div className="space-y-6">
-        <Image
-          alt="poland landscape"
-          src={PolandLandscape}
-          width={100}
-          height={100}
-          sizes="100"
-          className="h-full w-full"
-          placeholder="blur"
-        />
+        <ImageComponent alt="poland landscape" imageSrc={PolandLandscape} />
         <p>
           Podróżowanie samochodem w Polsce to nadal najczęstszy wybór
           podróżujących, przyciągający elastycznością i niezależnością.
@@ -50,14 +43,7 @@ export default function CarPage() {
           przestrzegamy do respektowania tych przepisów gdyż kary nakładane
           przez Policję mogą być dotkliwe.
         </p>
-        <Image
-          alt="speed limit table"
-          src={SpeedLimitTable}
-          width={100}
-          height={100}
-          sizes="100"
-          className="mx-auto h-full w-96"
-        />
+        <ImageComponent alt="speed limit table" imageSrc={SpeedLimitTable} />
         <HintElement
           text={
             <>
@@ -85,14 +71,7 @@ export default function CarPage() {
           stacjonarny fotoradar musi być odpowiednio wcześniej oznakowany
           znakiem pionowym.
         </p>
-        <Image
-          alt="photoradar sign"
-          src={SpeedControlSign}
-          width={100}
-          height={100}
-          sizes="100"
-          className="mx-auto h-full w-96"
-        />
+        <ImageComponent alt="photoradar sign" imageSrc={SpeedControlSign} />
         <p>
           Urządzenia służące do robienia zdjęć zbyt szybkim kierowcą według
           przepisów muszą być pomalowane na jaskrawo-żółty kolor. Jeżeli na
@@ -100,23 +79,9 @@ export default function CarPage() {
           kolorze, to najprawdopodobniej jest on nieaktywny ale takich jest już
           bardzo mało.
         </p>
-        <Image
-          alt="stationary photoradar"
-          src={Photoradar}
-          width={0}
-          height={0}
-          sizes="100"
-          className="mx-auto h-full w-96"
-        />
+        <ImageComponent alt="stationary photoradar" imageSrc={Photoradar} />
         <h3 id="highway">Autostrady</h3>
-        <Image
-          alt="highway"
-          src={Highway}
-          width={100}
-          height={100}
-          sizes="100"
-          className="mx-auto h-full w-full"
-        />
+        <ImageComponent alt="highway" imageSrc={Highway} />
         <p>
           W ciągu ostatnich kilku lat Polska znacząco zainwestowała w rozwijanie
           infrastruktury drogowej. Autostrady i drogi ekspresowe stanowią
@@ -206,24 +171,10 @@ export default function CarPage() {
           Warto dodać, że gdyby był problem z aplikacją, na tych pasach zawsze
           jest pracownik w budce który będzie mógł pobrać od nas pieniądze.{" "}
         </p>
-        <Image
-          alt="videotooling_signs"
-          src={VideotoolingSign}
-          width={0}
-          height={0}
-          sizes="100"
-          className="mx-auto h-full w-full"
-        />
+        <ImageComponent alt="videotooling_signs" imageSrc={VideotoolingSign} />
         <hr className="mx-4"></hr>
         <h2>Stacje Paliw</h2>
-        <Image
-          alt="gas station"
-          src={GasStation}
-          width={100}
-          height={100}
-          sizes="100"
-          className="mx-auto h-full w-full"
-        />
+        <ImageComponent alt="gas station" imageSrc={GasStation} />
         <p>
           Podróżując po Polsce możemy minąć wiele różnych stacji paliw, od
           wielkich światowych koncernów po małe lokalne stacje. Mimo, że jakość

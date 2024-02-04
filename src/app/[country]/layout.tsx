@@ -1,3 +1,5 @@
+import { Header } from "@/components/header";
+import { MobileNavigation } from "@/components/mobile-navigation";
 import { RightSidebarNavigation } from "@/components/right-sidebar-navigation";
 import { Sidebar } from "@/components/sidebar";
 import { Metadata } from "next";
@@ -21,7 +23,7 @@ type LayoutProps = {
 export default function Layout({ children, params }: LayoutProps) {
   return (
     <main className="flex flex-col">
-      <header className="h-20 w-full"></header>
+      <Header />
       <div className=" max-w-8xl relative mx-auto flex w-full flex-auto justify-center sm:px-2 lg:px-8 xl:px-20">
         <Sidebar />
         <div className="min-w-0 max-w-4xl flex-auto px-4 py-16 lg:pl-8 lg:pr-0 xl:px-16">
