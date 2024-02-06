@@ -2,7 +2,6 @@ function NotFoundPage() {
   return (
     <div className="mt-20 p-5">
       <h1 className="mb-5 text-3xl">
-        {" "}
         Sorry, the page you are looking for does not exist.
       </h1>
       <h4>
