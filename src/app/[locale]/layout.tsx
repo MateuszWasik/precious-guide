@@ -17,9 +17,12 @@ type RootLayoutProps = {
   };
 };
 
-export default function RootLayout({ children, params }: RootLayoutProps) {
+export default function RootLayout({
+  children,
+  params: { locale },
+}: RootLayoutProps) {
   return (
-    <html lang={params.locale}>
+    <html lang={locale}>
       <body className={`${dmSans.className} h-full`}>{children}</body>
     </html>
   );
