@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, DM_Sans } from "next/font/google";
-import "./globals.css";
+import "../../styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 const dmSans = DM_Sans({ weight: "400", subsets: ["latin"] });
@@ -10,13 +10,19 @@ export const metadata: Metadata = {
   description: "Stress free travel",
 };
 
+type RootLayoutProps = {
+  children: React.ReactNode;
+  params: {
+    locale: string;
+  };
+};
+
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode;
-}) {
+  params: { locale },
+}: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body className={`${dmSans.className} h-full`}>{children}</body>
     </html>
   );
