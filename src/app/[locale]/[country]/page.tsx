@@ -1,13 +1,14 @@
 import { useTranslations } from "next-intl";
-import PolandLandscape from "@images/poland_welcome_page.jpg";
-import { ImageComponent } from "@/components/image-component";
-type CountryPageProps = {
+import PolandLandscape from "@images/poland_welcome_page.png";
+import { ImageComponent } from "@/components/ImageComponent";
+
+type CountryWelcomePage = {
   params: {
     country: string;
   };
 };
 
-export default function CountryWelcomePage({ params }: CountryPageProps) {
+export default function CountryWelcomePage({ params }: CountryWelcomePage) {
   const t = useTranslations("WelcomePage");
 
   return (

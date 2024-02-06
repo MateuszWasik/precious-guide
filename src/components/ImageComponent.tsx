@@ -3,8 +3,13 @@ import Image, { StaticImageData } from "next/image";
 type ImageProps = {
   alt: string;
   imageSrc: string | StaticImageData;
+  placeholder?: "empty" | "blur";
 };
-export const ImageComponent = ({ alt, imageSrc }: ImageProps) => {
+export const ImageComponent = ({
+  alt,
+  imageSrc,
+  placeholder = "blur",
+}: ImageProps) => {
   return (
     <Image
       alt={alt}
@@ -13,7 +18,7 @@ export const ImageComponent = ({ alt, imageSrc }: ImageProps) => {
       height={100}
       sizes="100"
       className="mx-auto h-full w-full"
-      placeholder="blur"
+      placeholder={placeholder}
     />
   );
 };

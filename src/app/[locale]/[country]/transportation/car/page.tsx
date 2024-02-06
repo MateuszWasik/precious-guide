@@ -5,8 +5,8 @@ import SpeedControlSign from "@images/transportation/car/speed_control_sign.png"
 import VideotoolingSign from "@images/transportation/car/highway_org.png";
 import GasStation from "@images/transportation/car/gas_station.png";
 import Highway from "@images/transportation/car/highway.png";
-import { HintElement } from "@/components/hint-element";
-import { ImageComponent } from "@/components/image-component";
+import { HintElement } from "@/components/HintElement";
+import { ImageComponent } from "@/components/ImageComponent";
 import { useTranslations } from "next-intl";
 
 export default function CarPage() {
