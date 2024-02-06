@@ -1,4 +1,3 @@
-// import Link from "next/link";
 import { Link } from "@navigation/Link";
 import { useTranslations } from "next-intl";
 
