@@ -1,0 +1,123 @@
+{
+  "WelcomePage": {
+    "title": "Welcome to Poland - A Journey through History and Culture",
+    "sub_title": "",
+    "p1": "Poland, located in the heart of Europe, is a country that effortlessly blends a rich historical heritage with vibrant modern life. With its picturesque landscapes, welcoming communities, and a treasure trove of cultural experiences, Poland invites you to embark on an unforgettable adventure.",
+    "p2": "Pack your bags, and let Poland's charm captivate your heart. Your adventure awaits!",
+    "history": {
+      "title": "Historical Marvels",
+      "p1": "Explore the cobblestone streets of Kraków's Old Town, where you'll encounter the enchanting Wawel Castle and the stunning Cloth Hall. Discover the somber history of Auschwitz-Birkenau, a testament to humanity's resilience and reflection."
+    },
+    "nature": {
+      "title": "Natural Beauty",
+      "p1": "Poland boasts diverse landscapes, from the pristine beaches of the Baltic Sea to the majestic Tatra Mountains. Breathe in the fresh air of Białowieża Forest, home to the European bison, and sail through the enchanting Masurian Lakes."
+    },
+    "culture": {
+      "title": "Cultural Gems",
+      "p1": "Immerse yourself in Poland's thriving cultural scene. Visit Warsaw's Royal Castle and the Chopin Museum, celebrating the legacy of the renowned composer. Delight in the vibrant folk traditions, including music, dance, and delicious cuisine."
+    },
+    "hospitality": {
+      "title": "Warm Hospitality",
+      "p1": "Polish people are known for their warmth and hospitality. Engage with locals and experience their customs, from sharing a meal of pierogi to joining in festive celebrations."
+    },
+    "adventure": {
+      "title": "Affordable Adventures",
+      "p1": "Poland offers incredible value for travelers, with affordable accommodations, dining, and transportation options."
+    },
+    "gate_to_europe": {
+      "title": "Gateway to Europe",
+      "p1": "Situated in the heart of Europe, Poland serves as an ideal gateway to explore neighboring countries like Germany, the Czech Republic, and Lithuania."
+    },
+    "plan_your_trip": {
+      "title": "Plan Your Visit",
+      "p1": "Whether you're drawn to its historical sites, natural wonders, or vibrant culture, Poland promises a rewarding travel experience. Come and discover a land where the past and present harmoniously coexist, inviting you to create lasting memories."
+    }
+  },
+  "Navigation": {
+    "BasicInformation": {
+      "title": "Basic information"
+    },
+    "Transportation": {
+      "title": "Transportation",
+      "car": "Car",
+      "bus": "Bus",
+      "train": "Train"
+    },
+    "CostOfLiving": {
+      "title": "Cost of living",
+      "CommonProducts": "Cost of common products",
+      "FlatRent": "Flat rent"
+    }
+  },
+  "CarPage": {
+    "h1": "Car Travel",
+    "sub_h1": "Knowledge Compendium",
+    "main_description_section": {
+      "p1": "Traveling by car in Poland remains the most popular choice for travelers, attracting flexibility and independence. Modern highways and national roads enable comfortable travel between cities, while also providing the freedom to explore diverse landscapes.",
+      "p2": "Privacy, the ability to stop at picturesque places, and conveniences offered by apps like Autopay or online maps, make car travel not just a means of transport, but also a unique travel experience that allows you to enjoy discovering the country on your own terms."
+    },
+    "speed_limits_section": {
+      "title": "Speed Limits",
+      "p1": "In Poland, to travel safely on the road, it's necessary to observe speed limit signs and know how fast you can go when such signs are not present. Crossing our border, you may encounter a sign informing about permissible speeds throughout Poland. We pay special attention and adhere to these regulations as penalties imposed by the Police can be severe.",
+      "hint1": {
+        "p1": "The Polish Police now have devices for contactless payments. The problem arises when the driver is a citizen of another country. In such cases, the fine must be paid on the spot and only in cash.",
+        "p2": "If the driver does not have Polish currency, or does not have enough, then the Police can help the person reach the nearest ATM or ask someone they know to come and pay the fine."
+      }
+    },
+    "speed_camera_section": {
+      "title": "Speed Cameras",
+      "p1": "In Poland, the regulations concerning speed cameras are written in favor of drivers. Unlike many other EU countries, every stationary speed camera in Poland must be appropriately marked in advance with a vertical sign.",
+      "p2": "Devices used to photograph too fast drivers must be painted in bright yellow. If you encounter a device resembling a speed camera in any color other than this, it is most likely inactive, but there are very few of these."
+    },
+    "highway_section": {
+      "title": "Highways and Expressways",
+      "p1": "In recent years, Poland has intensified efforts to expand and modernize its road infrastructure. Highways and expressways play a key role in the national transport system, connecting cities and regions. Among the most important routes are A1, A2, A4, and A6, which provide efficient and comfortable connections between major agglomerations.",
+      "paid_highway_section": {
+        "p1": "In Poland, there are both toll and toll-free sections of highways. For personal vehicles up to 3.5 tons and motorcycles, some highway segments have been exempted from fees. This facility aims to facilitate travel and promote the use of fast roads.",
+        "p2": "For toll sections of highways in Poland, modern payment methods are available that facilitate and speed up the toll process. Users can take advantage of mobile apps like Autopay, which allows for automatic toll payments. This app is user-friendly, offers support in many languages, and requires one-time setup, including entering the vehicle registration number and payment details."
+      },
+      "hint": {
+        "p1": "The application that we highly recommend due to its ease of use and support for multiple languages is Autopay. Before hitting the road with this application, however, it is required to configure it by providing the vehicle's registration number and linking a payment card.",
+        "p2": "The application's website is also available in English. However, remember to keep the application running in the background as it utilizes GPS data to accurately locate the vehicle. You can find it at https://autopay.eu."
+      },
+      "videotooling": {
+        "p1": "Videotolling is another convenient option that allows for payments without the need to stop at toll booths. This system uses the reading of license plates and automatically deducts tolls from a previously registered payment card. It is a solution available on selected highway sections and is especially recommended for those who value speed and convenience.",
+        "p2": "This system is used on two concessionary highway sections - A1 (Toruń - Gdańsk section) and A4 (Kraków - Katowice section).",
+        "p3": "Videotolling is marked with a black camera on a yellow background. Videotolling usually operates on the furthest left lanes. It's worth noting that if there is a problem with the app, there is always a booth worker on these lanes who can collect the money from us."
+      }
+    },
+    "gas_stations_section": {
+      "title": "Gas Stations",
+      "p1": "Traveling across Poland, we can pass many different gas stations, from large international conglomerates to small local stations. Although the quality of fuels in Poland is under constant control by the Trade Inspection, we recommend refueling at stations of well-known brands.",
+      "p2": "The most popular gas stations in Poland include",
+      "p3": "From January 1, 2024, gasoline marked Pb95 will no longer be available at all stations. Instead, gasoline marked E10 will be introduced.",
+      "average_gas_price_section": {
+        "title": "Average Fuel Prices",
+        "p1": "Fuel prices in Poland vary from a few to even several dozen groszy per liter. The most expensive refueling will be on highways, as prices there are usually the highest."
+      },
+      "hint": {
+        "p1": "All the above-mentioned gas stations accept cash and card payments. In Poland, you pay for fuel at the station's cashier after refueling.",
+        "p2": "Not all stations offer AdBlue refueling.",
+        "p3": "Most gas station toilets are free for customers. However, it's worth having small change as some stations, even popular ones, charge for using the WC.",
+        "p4": "Stations in smaller towns usually do not have a toilet or food offerings. It's worth remembering this when leaving main roads and organizing a stop in advance.",
+        "p5": "At stations, you can inflate tires with a compressor for free, and for a small fee, use a vacuum cleaner."
+      }
+    },
+    "mandatory_accessories": {
+      "title": "Mandatory Car Equipment in Poland",
+      "p1": "During a road check, a police officer may inspect our vehicle for the presence of mandatory equipment.",
+      "p2": "In Poland, every car must have the following mandatory equipment",
+      "table_mandatory": {
+        "p1": "A properly located and illuminated registration plate",
+        "p2": "Warning triangle",
+        "p3": "A functional and legal fire extinguisher in an easily accessible place"
+      },
+      "p3": "Although not obligatory, for your own safety and that of other drivers, it is recommended to also have in your car:",
+      "table_non_mandatory": {
+        "p1": "Several reflective vests for yourself and passengers",
+        "p2": "A warm blanket for heating up in case of a breakdown in difficult weather conditions",
+        "p3": "A basic first aid kit"
+      }
+    }
+  }
+}

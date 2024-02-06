@@ -1,0 +1,122 @@
+{
+  "WelcomePage": {
+    "title": "Witamy w Polsce - Podróż przez Historię i Kulturę",
+    "sub_title": "",
+    "p1": "Polska, położona w sercu Europy, to kraj, który bezproblemowo łączy bogate dziedzictwo historyczne z pulsującym współczesnym życiem. Dzięki malowniczym krajobrazom, serdecznym społecznościom i skarbnicy doświadczeń kulturalnych Polska zaprasza Cię do niezapomnianej przygody.",
+    "p2": "Spakuj swoje walizki i pozwól urokowi Polski zachwycić Twoje serce. Twoja przygoda czeka!",
+    "history": {
+      "title": "Cuda Historyczne",
+      "p1": "Odkryj brukowane uliczki starego miasta Krakowa, gdzie znajdziesz uroczy Zamek Królewski na Wawelu i przepiękny Sukiennice. Poznaj smutną historię Auschwitz-Birkenau, świadectwo wytrwałości i refleksji ludzkości."
+    },
+    "nature": {
+      "title": "Piękno Natury",
+      "p1": "Polska może poszczycić się różnorodnymi krajobrazami, od dziewiczych plaż Morza Bałtyckiego po majestatyczne Tatry. Wdychaj świeże powietrze w Puszczy Białowieskiej, domu europejskich żubrów, i płyń po uroczych jeziorach mazurskich."
+    },
+    "culture": {
+      "title": "Kulturowe Skarby",
+      "p1": "Pochłonąć się w rozwijającym się życiu kulturalnym Polski. Odwiedź warszawski Zamek Królewski i Muzeum Chopina, celebrowanie dziedzictwa znanego kompozytora. Rozkoszuj się dynamicznymi tradycjami ludowymi, włączając w to muzykę, taniec i przysmaki kuchni."
+    },
+    "hospitality": {
+      "title": "Ciepła Gościnność",
+      "p1": "Polacy są znani ze swojej ciepłości i gościnności. Wchodź w interakcje z miejscowymi i poznawaj ich obyczaje, od wspólnych posiłków z pierogami po udział w uroczystościach."
+    },
+    "adventure": {
+      "title": "Przystępne Przygody",
+      "p1": "Polska oferuje niesamowitą wartość dla podróżnych, z przystępnymi cenami zakwaterowania, restauracji i opcjami transportu."
+    },
+    "gate_to_europe": {
+      "title": "Brama do Europy",
+      "p1": "Usytuowana w samym sercu Europy, Polska stanowi idealną bramę do eksploracji sąsiednich krajów, takich jak Niemcy, Czechy czy Litwa."
+    },
+    "plan_your_trip": {
+      "title": "Zaplanuj Swój Wyjazd",
+      "p1": "Czy przyciągają Cię historyczne miejsca, cudowne krajobrazy czy pulsująca kultura - Polska obiecuje nagrodę w postaci niezapomnianego doświadczenia podróżniczego. Przyjedź i odkryj kraj, gdzie przeszłość i teraźniejszość harmonijnie współistnieją, zapraszając Cię do tworzenia trwałych wspomnień."
+    }
+  },
+  "Navigation": {
+    "BasicInformation": {
+      "title": "Podstawowe informacje"
+    },
+    "Transportation": {
+      "title": "Środki transportu",
+      "car": "Samochód",
+      "bus": "Autobus",
+      "train": "Pociąg"
+    },
+    "CostOfLiving": {
+      "title": "Koszty życia",
+      "CommonProducts": "Koszt podstawowych produktów",
+      "FlatRent": "Wynajem mieszkania"
+    }
+  },
+  "CarPage": {
+    "h1": "Podrózowanie samochodem",
+    "sub_h1": "Kompendium wiedzy",
+    "main_description_section": {
+      "p1": "Podróżowanie samochodem w Polsce to nadal najczęstszy wybór podróżujących, przyciągający elastycznością i niezależnością. Nowoczesne autostrady i drogi krajowe umożliwiają wygodne podróżowanie między miastami, zapewniając jednocześnie swobodę odkrywania różnorodnych krajobrazów.",
+      "p2": "Prywatność, możliwość zatrzymywania się w malowniczych miejscach oraz ułatwienia oferowane przez aplikacje, takie jak Autopay czy mapy online, sprawiają, że podróżowanie samochodem to nie tylko środek transportu, lecz także wyjątkowe doświadczenie podróży, które pozwala czerpać radość z odkrywania kraju na własnych warunkach."
+    },
+    "speed_limits_section": {
+      "title": "Przepisowe prędkości",
+      "p1": "W Polsce aby bezpiecznie poruszać się po drodze należy przestrzegać znaków ograniczających predkość oraz wiedzieć jak szybko można poruszać się gdy takowych znaków nie ma. Przekraczając naszą granicę, przy drodzę możemy spotkać znak informujący o dopuszczalnych prędkościach na terenie całej Polski. Zwracamy szczególną uwagę oraz przestrzegamy do respektowania tych przepisów gdyż kary nakładane przez Policję mogą być dotkliwe.",
+      "hint1": {
+        "p1": "Polska Policja na swoim pokładzie posiada juz urządzenia do płatności zblizeniowych. Problem pojawia się gdy kierowca jest obywatelem innego kraju. W takim wypadku mandat musi zostać opłacony na miejscu i wyłącznie gotówką.",
+        "p2": "Jezeli kierowca nie posiada przy polskiej waluty, albo nie ma wystarczającej ilości wtedy Policja moze pomóc takiej osobie w dotarciu do najblizszego bankomatu albo poprosić o to aby ktoś znajomy podjechał i opłacił mandat."
+      }
+    },
+    "speed_camera_section": {
+      "title": "Fotoradary",
+      "p1": "W polsce przepisy dotyczące fotoradarów są napisane na korzyść kierowców. W przeciwieństwie do wielu innych krajów UE w Polsce każdy stacjonarny fotoradar musi być odpowiednio wcześniej oznakowany znakiem pionowym.",
+      "p2": "Urządzenia służące do robienia zdjęć zbyt szybkim kierowcą według przepisów muszą być pomalowane na jaskrawo-żółty kolor. Jeżeli na drodze spotkacie urządzenie przypominające fotoradar w innym niż ten kolorze, to najprawdopodobniej jest on nieaktywny ale takich jest już bardzo mało."
+    },
+    "highway_section": {
+      "title": "Autostrady i drogi ekspresowe",
+      "p1": "W ostatnich latach, Polska zintensyfikowała działania mające na celu rozbudowę i modernizację swojej infrastruktury drogowej. Autostrady i drogi ekspresowe pełnią kluczową rolę w systemie transportu krajowego, łącząc między sobą miasta oraz regiony. Wśród najważniejszych arterii znajdują się takie trasy jak A1, A2, A4, czy A6, które zapewniają efektywne i komfortowe połączenia między głównymi aglomeracjami.",
+      "paid_highway_section": {
+        "p1": "W Polsce istnieją zarówno płatne, jak i bezpłatne odcinki autostrad. Dla pojazdów osobowych do 3.5 tony oraz motocykli, niektóre segmenty autostrad zostały zwolnione z opłat. To udogodnienie ma na celu ułatwienie podróży i promowanie wykorzystania szybkich dróg.",
+        "p2": "Dla płatnych odcinków autostrad w Polsce dostępne są nowoczesne metody płatności, które ułatwiają i przyspieszają proces opłacania przejazdu. Użytkownicy mogą skorzystać z aplikacji mobilnych, takich jak Autopay, która umożliwia automatyczne rozliczanie opłat za przejazd. Aplikacja ta jest przyjazna dla użytkownika, oferuje wsparcie w wielu językach i wymaga jednorazowej konfiguracji, w tym podania numeru rejestracyjnego pojazdu oraz danych płatniczych."
+      },
+      "hint": {
+        "p1": "Aplikację którą szczególnie polecamy ze względu na łatwość w obsłudzę oraz za wsparcie kilku języków to Autopay. Przed wyruszeniem w drogę z tą aplikacją wymagane jest jednak jej skonfigurowanie poprzez podanie numeru rejestracyjnego samochodu oraz podpięciu karty płatniczej.",
+        "p2": "Strona aplikacji jest dostępna również w jezyku angielskim. Pamietaj jednak aby mieć odpaloną aplikacje w tle ponieważ wykorzystuje ona odczyt z GPSa aby móc poprawnie zlokalizować pojazd. https://autopay.eu"
+      },
+      "videotooling": {
+        "p1": "Videotolling to kolejna wygodna opcja, która umożliwia płatności bez konieczności zatrzymywania się przy bramkach. System ten wykorzystuje odczyt tablic rejestracyjnych i automatycznie pobiera opłaty za przejazd z wcześniej zarejestrowanej karty płatniczej. Jest to rozwiązanie dostępne na wybranych odcinkach autostrad i jest szczególnie polecane dla osób ceniących szybkość i wygodę.",
+        "p2": "System ten jest uzywany na dwóch koncesjonowanych odcinkach autostrad - A1 (odcinek Toruń - Gdańsk) oraz A4 (odcinek Kraków - Katowice).",
+        "p3": "Videotooling jest oznakowany czarną kamerką na żółtym tle. Najczęściej videotooling działa na najbardziej skrajnych pasach po lewej stronie. Warto dodać, że gdyby był problem z aplikacją, na tych pasach zawsze jest pracownik w budce który będzie mógł pobrać od nas pieniądze."
+      }
+    },
+    "gas_stations_section": {
+      "title": "Stacje paliw",
+      "p1": "Podróżując po Polsce możemy minąć wiele różnych stacji paliw, od wielkich światowych koncernów po małe lokalne stacje. Mimo, że jakość paliw w Polsce jest pod ciągłą kontrolą Inspekcji Handlowej to zalecamy tankować samochód na stacjach znanych koncernów.",
+      "p2": "Najpopularniejsze stacje paliw w Polsce to",
+      "p3": "Od 1 stycznia 2024 na wszystkich stacjach nie zatankujemy już benzyny o oznaczeniu Pb95. Zamiast niej pojawi się benzyna o oznaczeniu E10.",
+      "average_gas_price_section": {
+        "title": "Średnie ceny paliw"
+      },
+      "hint": {
+        "p1": "Wszystkie wymienione wyżej stacje paliw przyjmują gotówkę oraz płatności kartą. Za paliwo w Polsce płaci się po czynności tankowania w kasie stacji.",
+        "p2": "Nie na wszystkich stacjach zatankujemy AdBlue.",
+        "p3": "Większość toalet na stacjach paliw są bezpłatne dla klientów. Warto jednak posiadać drobne pieniądze gdyż w niektórych stacjach, nawet tych popularnych, są pobierane opłaty za skorzystanie z WC.",
+        "p4": "Stacje w mniejszych miejscowościach zazwyczaj nie posiadają ani toalety ani propozycji gastronomicznych. Warto o tym pamiętać zjeżdżając z głównych tras i odpowiednio wcześniej zorganizować postój.",
+        "p5": "Na stacjach można bezpłatnie napompować opony kompresorem, oraz za niewielką opłatą użyć odkurzacza."
+      }
+    },
+    "mandatory_accessories": {
+      "title": "Obowiazkowe wyposażenie samochodu w Polsce",
+      "p1": "Podczas kontroli drogowej policjant może skontrolować nasz pojazd pod względem posiadania obowiązkowego wyposażenia.",
+      "p2": "W Polsce obowiązkowym wyposażeniem każdego samochodu musi być",
+      "table_mandatory": {
+        "p1": "Umiejscowiona w poprawnym miejscu oraz oświetlona tablica rejestracyjna",
+        "p2": "Trójkąt ostrzegawczy",
+        "p3": "Sprawna i legalna gaśnica w łatwo dostępnym miejscu"
+      },
+      "p3": "Mimo, że nie mamy takiego obowiązku to jednak z uwagi na bezpieczeństwo własne oraz innych kierujących zaleca się posiadanie w samochodzie również:",
+      "table_non_mandatory": {
+        "p1": "Kilku sztuk kamizelek odblaskowych dla siebie oraz pasażerów",
+        "p2": "Ciepły koc na ogrzanie się na wypadek awarii w trudnych warunkach atmosferycznych",
+        "p3": "Podstawowa apteczka"
+      }
+    }
+  }
+}
