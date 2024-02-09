@@ -5,12 +5,14 @@ import SpeedControlSign from "@images/transportation/car/speed_control_sign.png"
 import VideotoolingSign from "@images/transportation/car/highway_org.png";
 import GasStation from "@images/transportation/car/gas_station.png";
 import Highway from "@images/transportation/car/highway.png";
-import { HintElement } from "@/components/HintElement";
 import { ImageComponent } from "@/components/ImageComponent";
 import { useTranslations } from "next-intl";
+import { MessageBubble } from "@/components/MessageBubble/MessageBubble";
+import { DynamicSectionHeader } from "@/components/DynamicSectionHeader";
 
 export default function CarPage() {
   const t = useTranslations("CarPage");
+
   return (
     <article>
       <header className="mb-5">
@@ -22,36 +24,33 @@ export default function CarPage() {
         <p>{t("main_description_section.p1")}</p>
         <p>{t("main_description_section.p2")}</p>
         <hr className="mx-4"></hr>
-        <h3 id="speed-limits">{t("speed_limits_section.title")}</h3>
+        <DynamicSectionHeader
+          translatedText={t("speed_limits_section.title")}
+        />
         <p>{t("speed_limits_section.p1")}</p>
         <ImageComponent alt="speed limit table" imageSrc={SpeedLimitTable} />
-        <HintElement
-          text={
-            <>
-              <p className="mb-4">{t("speed_limits_section.hint1.p1")}</p>
-              <p>{t("speed_limits_section.hint1.p2")}</p>
-            </>
-          }
-        />
+
+        <MessageBubble variant="hint">
+          <p className="mb-4">{t("speed_limits_section.hint1.p1")}</p>
+          <p>{t("speed_limits_section.hint1.p2")}</p>
+        </MessageBubble>
+
         <hr className="mx-4"></hr>
-        <h3 id="speed-control">{t("speed_camera_section.title")}</h3>
+        <DynamicSectionHeader
+          translatedText={t("speed_camera_section.title")}
+        />
         <p>{t("speed_camera_section.p1")}</p>
         <ImageComponent alt="photoradar sign" imageSrc={SpeedControlSign} />
         <p>{t("speed_camera_section.p2")}</p>
         <ImageComponent alt="stationary photoradar" imageSrc={Photoradar} />
-        <h3 id="highway">{t("highway_section.title")}</h3>
+        <DynamicSectionHeader translatedText={t("highway_section.title")} />
         <ImageComponent alt="highway" imageSrc={Highway} />
         <p>{t("highway_section.p1")}</p>
         <p>{t("highway_section.paid_highway_section.p1")}</p>
-        <p>{t("highway_section.paid_highway_section.p2")}</p>
-        <HintElement
-          text={
-            <>
-              <p className="mb-4">{t("highway_section.hint.p1")}</p>
-              <p>{t("highway_section.hint.p2")}</p>
-            </>
-          }
-        />
+        <MessageBubble variant="note">
+          <p className="mb-4">{t("highway_section.hint.p1")}</p>
+          <p>{t("highway_section.hint.p2")}</p>
+        </MessageBubble>
         <p>{t("highway_section.videotooling.p1")}</p>
         <p>{t("highway_section.videotooling.p2")}</p>
         <p>{t("highway_section.videotooling.p3")}</p>
@@ -69,17 +68,14 @@ export default function CarPage() {
           <li>Circle K</li>
         </ul>
         <p>{t("gas_stations_section.p3")}</p>
-        <HintElement
-          text={
-            <>
-              <p className="mb-4">{t("gas_stations_section.hint.p1")}</p>
-              <p className="mb-4">{t("gas_stations_section.hint.p2")}</p>
-              <p className="mb-4">{t("gas_stations_section.hint.p3")}</p>
-              <p className="mb-4">{t("gas_stations_section.hint.p4")}</p>
-              <p className="mb-4">{t("gas_stations_section.hint.p5")}</p>
-            </>
-          }
-        />
+        <MessageBubble variant="hint">
+          <p className="mb-4">{t("gas_stations_section.hint.p1")}</p>
+          <p className="mb-4">{t("gas_stations_section.hint.p2")}</p>
+          <p className="mb-4">{t("gas_stations_section.hint.p3")}</p>
+          <p className="mb-4">{t("gas_stations_section.hint.p4")}</p>
+          <p className="mb-4">{t("gas_stations_section.hint.p5")}</p>
+        </MessageBubble>
+
         <hr className="mx-4"></hr>
         <h2>{t("mandatory_accessories.title")}</h2>
         <p>{t("mandatory_accessories.p1")}</p>

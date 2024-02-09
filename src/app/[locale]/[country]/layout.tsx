@@ -1,6 +1,6 @@
+import { DynamicRightSidebar } from "@/components/DynamicRightSidebar/DynamicRightSidebar";
 import { Header } from "@/components/Header";
-import { RightSidebarNavigation } from "@/components/RightSidebar";
-import { Sidebar } from "@/components/Sidebar";
+import { Sidebar } from "@/components/SidebarNavigation/Sidebar";
 import { Metadata } from "next";
 import React from "react";
 
@@ -25,7 +25,7 @@ export default function Layout({ children, params }: LayoutProps) {
         <div className="min-w-0 max-w-4xl flex-auto px-4 py-16 lg:pl-8 lg:pr-0 xl:px-16">
           {children}
         </div>
-        <RightSidebarNavigation />
+        <DynamicRightSidebar />
       </div>
     </main>
   );

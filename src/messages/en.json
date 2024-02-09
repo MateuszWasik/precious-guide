@@ -1,4 +1,15 @@
 {
+  "common": {
+    "Component": {
+      "MessageBubble": {
+        "note_from_native": "Note from native",
+        "good_to_know": "Good to know"
+      },
+      "RightSidebar": {
+        "on_this_site": "On this page"
+      }
+    }
+  },
   "WelcomePage": {
     "title": "Welcome to Poland - A Journey through History and Culture",
     "sub_title": "",
@@ -73,8 +84,7 @@
       "title": "Highways and Expressways",
       "p1": "In recent years, Poland has intensified efforts to expand and modernize its road infrastructure. Highways and expressways play a key role in the national transport system, connecting cities and regions. Among the most important routes are A1, A2, A4, and A6, which provide efficient and comfortable connections between major agglomerations.",
       "paid_highway_section": {
-        "p1": "In Poland, there are both toll and toll-free sections of highways. For personal vehicles up to 3.5 tons and motorcycles, some highway segments have been exempted from fees. This facility aims to facilitate travel and promote the use of fast roads.",
-        "p2": "For toll sections of highways in Poland, modern payment methods are available that facilitate and speed up the toll process. Users can take advantage of mobile apps like Autopay, which allows for automatic toll payments. This app is user-friendly, offers support in many languages, and requires one-time setup, including entering the vehicle registration number and payment details."
+        "p1": "In Poland, there are both toll and toll-free sections of highways. For personal vehicles up to 3.5 tons and motorcycles, some highway segments have been exempted from fees. This facility aims to facilitate travel and promote the use of fast roads."
       },
       "hint": {
         "p1": "The application that we highly recommend due to its ease of use and support for multiple languages is Autopay. Before hitting the road with this application, however, it is required to configure it by providing the vehicle's registration number and linking a payment card.",

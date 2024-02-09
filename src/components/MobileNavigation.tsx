@@ -4,7 +4,7 @@ import { IoMdClose } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 import Link from "next/link";
-import { NavPoints } from "@/data/navigation/nav-points";
+import { TransportationRoutes } from "@/constants/navigation/routes";
 
 export const MobileNavigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +28,7 @@ export const MobileNavigation = () => {
           </button>
           <div className="pt-10">
             <ul>
-              {NavPoints.map(({ name, href }) => (
+              {TransportationRoutes.map(({ name, href }) => (
                 <li key={name}>
                   <Link onClick={() => setIsOpen(false)} href={href}>
                     {name}

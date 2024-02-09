@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, DM_Sans } from "next/font/google";
+import Providers from "@/providers/StateProvider";
+
 import "../../styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -23,7 +25,9 @@ export default function RootLayout({
 }: RootLayoutProps) {
   return (
     <html lang={locale}>
-      <body className={`${dmSans.className} h-full`}>{children}</body>
+      <body className={`${dmSans.className} h-full`}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }
