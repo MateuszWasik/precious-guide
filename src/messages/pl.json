@@ -1,4 +1,15 @@
 {
+  "common": {
+    "Component": {
+      "MessageBubble": {
+        "note_from_native": "Wskazówka od mieszkańca",
+        "good_to_know": "Warto wiedzieć"
+      },
+      "RightSidebar": {
+        "on_this_site": "Na tej stronie"
+      }
+    }
+  },
   "WelcomePage": {
     "title": "Witamy w Polsce - Podróż przez Historię i Kulturę",
     "sub_title": "",
@@ -73,8 +84,7 @@
       "title": "Autostrady i drogi ekspresowe",
       "p1": "W ostatnich latach, Polska zintensyfikowała działania mające na celu rozbudowę i modernizację swojej infrastruktury drogowej. Autostrady i drogi ekspresowe pełnią kluczową rolę w systemie transportu krajowego, łącząc między sobą miasta oraz regiony. Wśród najważniejszych arterii znajdują się takie trasy jak A1, A2, A4, czy A6, które zapewniają efektywne i komfortowe połączenia między głównymi aglomeracjami.",
       "paid_highway_section": {
-        "p1": "W Polsce istnieją zarówno płatne, jak i bezpłatne odcinki autostrad. Dla pojazdów osobowych do 3.5 tony oraz motocykli, niektóre segmenty autostrad zostały zwolnione z opłat. To udogodnienie ma na celu ułatwienie podróży i promowanie wykorzystania szybkich dróg.",
-        "p2": "Dla płatnych odcinków autostrad w Polsce dostępne są nowoczesne metody płatności, które ułatwiają i przyspieszają proces opłacania przejazdu. Użytkownicy mogą skorzystać z aplikacji mobilnych, takich jak Autopay, która umożliwia automatyczne rozliczanie opłat za przejazd. Aplikacja ta jest przyjazna dla użytkownika, oferuje wsparcie w wielu językach i wymaga jednorazowej konfiguracji, w tym podania numeru rejestracyjnego pojazdu oraz danych płatniczych."
+        "p1": "W Polsce istnieją zarówno płatne, jak i bezpłatne odcinki autostrad. Dla pojazdów osobowych do 3.5 tony oraz motocykli, niektóre segmenty autostrad zostały zwolnione z opłat. To udogodnienie ma na celu ułatwienie podróży i promowanie wykorzystania szybkich dróg."
       },
       "hint": {
         "p1": "Aplikację którą szczególnie polecamy ze względu na łatwość w obsłudzę oraz za wsparcie kilku języków to Autopay. Przed wyruszeniem w drogę z tą aplikacją wymagane jest jednak jej skonfigurowanie poprzez podanie numeru rejestracyjnego samochodu oraz podpięciu karty płatniczej.",

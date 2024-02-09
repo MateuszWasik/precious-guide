@@ -1,10 +1,11 @@
+import { BasicInformationRoutes } from "@/constants/navigation/routes";
 import { Link } from "@navigation/Link";
 import { useTranslations } from "next-intl";
 
 export const Sidebar = () => {
   const t = useTranslations("Navigation");
   return (
-    <div className=" hidden border-r border-slate-400  border-opacity-20 pl-5 md:block lg:block lg:flex-none lg:pl-0 ">
+    <section className="hidden border-r border-slate-400  border-opacity-20 pl-5 md:block lg:block lg:flex-none lg:pl-0 ">
       <div className="w-64 py-16 lg:pr-0">
         <nav>
           <div className="mb-7">
@@ -13,23 +14,18 @@ export const Sidebar = () => {
                 <h2>{t("BasicInformation.title")}</h2>
               </li>
               <li>
-                {/* <ul className="border-l border-slate-400 border-opacity-20 text-gray-400">
-                  <li className="relative">
-                    <div className="mb-3 ml-5 before:relative before:left-[-24px]  before:top-[15px] before:block before:h-2 before:w-2 before:rounded-full before:content-[''] before:hover:bg-white">
-                      <span>Polityka</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="mb-3 ml-5 before:relative before:left-[-24px]  before:top-[15px] before:block before:h-2 before:w-2 before:rounded-full before:content-[''] before:hover:bg-white">
-                      <span>Waluta</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="mb-3 ml-5 before:relative before:left-[-24px]  before:top-[15px] before:block before:h-2 before:w-2 before:rounded-full before:content-[''] before:hover:bg-white">
-                      <span>Religia</span>
-                    </div>
-                  </li>
-                </ul> */}
+                <ul className="border-l border-slate-400 border-opacity-20 text-gray-400">
+                  {BasicInformationRoutes.map(({ name, href }) => (
+                    <>
+                      <li
+                        key={name}
+                        className="mb-3 ml-5 before:relative before:left-[-24px]  before:top-[15px] before:block before:h-2 before:w-2 before:rounded-full before:content-[''] before:hover:bg-white"
+                      >
+                        <Link href={href}>{name}</Link>
+                      </li>
+                    </>
+                  ))}
+                </ul>
               </li>
             </ul>
           </div>
@@ -94,6 +90,6 @@ export const Sidebar = () => {
           </div>
         </nav>
       </div>
-    </div>
+    </section>
   );
 };
